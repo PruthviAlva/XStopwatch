@@ -11,7 +11,7 @@ function App() {
     if (flag) {
       intervalID = setInterval(() => {
         setTime((prev) => prev + 1);
-      }, 500);
+      }, 1000);
     } else {
       clearInterval(intervalID);
     }
